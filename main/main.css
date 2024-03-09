@@ -1,0 +1,88 @@
+main .main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 4%;
+}
+main .main-h2 {
+  font-size: 24px;
+  max-width: 98px;
+}
+main h1 {
+  max-width: 721px;
+  font-size: 40px;
+}
+main p {
+  max-width: 536px;
+}
+main .main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+main .main-box .main-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  max-width: 322px;
+  max-height: 456px;
+  background-color: aliceblue;
+  border: 1px solid;
+  padding: 40px;
+  margin-top: 4%;
+  border-radius: 5px;
+}
+main .main-box .main-boxes .main-desc {
+  display: flex;
+  align-items: center;
+}
+main .main-box .main-boxes .main-desc .main-descp {
+  font-size: 50px;
+  color: #02897A;
+  font-family: sans-serif;
+}
+main .main-box .main-boxes span {
+  color: #02897A;
+  font-family: sans-serif;
+}
+main .main-box .main-boxes .mains-btn {
+  padding: 5px 18px;
+  border-radius: 5px;
+  border: none;
+  background: #02897A;
+}
+main .main-box .main-boxees {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  max-width: 322px;
+  max-height: 456px;
+  background: #02897A;
+  border: 1px solid;
+  padding: 40px;
+  margin-top: 4%;
+  border-radius: 5px;
+  color: aliceblue;
+}
+main .main-box .main-boxees .main-descs {
+  display: flex;
+  align-items: center;
+}
+main .main-box .main-boxees .main-descs .main-descp {
+  font-family: sans-serif;
+  font-size: 50px;
+}
+main .main-box .main-boxees .mains-btns {
+  padding: 5px 18px;
+  border-radius: 5px;
+  border: none;
+  background: white;
+}/*# sourceMappingURL=main.css.map */
