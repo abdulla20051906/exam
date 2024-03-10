@@ -1,0 +1,43 @@
+.main-mid{
+    .main-texts{
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        background: #22343D;
+        color: aliceblue;
+        padding: 20px;
+        h5{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 30px;
+        }
+        
+    }
+    .main-btn{
+        padding: 5px 15px;
+        background: #02897A;
+        border: none;
+        border-radius: 5px;
+        color: white;
+
+    }
+ 
+}
+
+@media (max-width:583px) {
+    .main-mid{
+        .main-texts{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+        }
+    }
+    
+}

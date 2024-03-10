@@ -1,1 +1,65 @@
-/*# sourceMappingURL=footer.css.map */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .foter {
+  display: flex;
+  padding-top: 3%;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+footer .foter .foter-img {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+footer .foter .foter-texts {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .foter .foter-icon {
+  display: flex;
+  gap: 10px;
+}
+footer .foter .foter-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .foter .foter-btn {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+footer .foter .foter-btn p {
+  max-width: 280px;
+}
+footer .foter .foter-btn form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .foter .foter-btn form input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+footer .foter .foter-btn form button {
+  width: 40%;
+  padding: 8px;
+  background: #02897A;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+@media (max-width: 822px) {
+  footer .foter {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

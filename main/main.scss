@@ -1,11 +1,14 @@
 main{
+    background: #1F2E35;
+
     .main-text{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
         flex-direction: column;
-        margin-top: 4%;
+        padding-top: 2%;
+        color: aliceblue;
     }
     .main-h2{
         font-size: 24px;
@@ -24,6 +27,7 @@ main{
         align-items: center;
         gap: 50px;
         flex-wrap: wrap;
+        padding-bottom: 70px;
         .main-boxes{
             display: flex;
             flex-direction: column;
@@ -88,5 +92,13 @@ main{
                 background: white;
             }
         }
+    }
+
+ 
+}
+
+@media (max-width:631px) {
+    .main-text{
+        text-align: center;
     }
 }
